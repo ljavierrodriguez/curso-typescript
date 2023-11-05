@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "CommonJS",
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "strict": true,
+        "esModuleInterop": true
+    },
+    "include": [
+        "./src/**/*.ts" // Patron donde buscamos todos los archivos .ts que seran compilados dentro de la carpeta src y subcarpetas
+    ],
+    "exclude": [
+        "node_modules" // excluir los archivos de carpeta o ruta especificada
+    ]
+}
